@@ -6,9 +6,9 @@ const consult={};
         const pool = mariadb.createPool({
             host: 'ds1658.tmddedicated.com',
             port: '3306',
-            user: 'appcvprot',
-            password: 'AhZai4Eiku6U',
-            database: 'appcvprot_system'
+            user: 'appcvprot_root_licit',
+            password: 'root_licit',
+            database: 'appcvprot_licitaciones'
         })
         return pool.getConnection()
             .then(conn =>{
